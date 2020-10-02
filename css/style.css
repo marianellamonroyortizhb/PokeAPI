@@ -1,0 +1,35 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.header{
+	width: 100%;
+	z-index: 1;
+}
+
+.headerStyle{
+	color: rgb(115, 231, 231);
+}
+
+h4 {
+	color: white;
+	font-family: 'Merriweather Sans', sans-serif;
+}
+
+.BotonIngreso{
+	width: 160px;
+	align-self: center;
+	background: #fbe334;
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size: 120%;
+	color: #3c6ab5;
+	padding: 5px;
+	border-radius: 15px;
+	border-color: #3c6ab5;
+}
+h2 {
+	color: #fbe334;
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size: 700;
+}

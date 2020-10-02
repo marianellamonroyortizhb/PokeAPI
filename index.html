@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"> 
+	<link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Pokemón API</title>
+</head>
+<body>
+	<div class="card text-center bg-danger">
+		<div class="card-header">
+			<ul class="nav nav-tabs card-header-tabs">
+				<li class="nav-item">
+					<a class="nav-link active" href="./index.html">Inicio</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="./unpokemon.html">Un Pokémon</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="./variospokemon.html">Varios Pokémon</a>
+				</li>
+			</ul>
+		</div>
+		<div class="card text-white">
+			<img src="./img/PokemonAlegre.jpg" class="card-img" alt="...">
+			<div class="card-img-overlay mt-3">
+				<img src="./img/PokemonLogo.png" alt="pokelogo" width="600">
+				<h4 class="card-title mt-4">En está página podrás encontrar ese Pokémon que tanto has esperado <br> ¿Aceptas el compromiso?</h4>
+				<a href="./unpokemon.html" class="btn BotonIngreso mt-3">¡A mimarlo!</a>
+			</div>
+		</div>
+	</div>
+	<!--Contenido del Pokemón-->
+
+	<div class ="container position-relative">
+		<div id="datosPersonajes" class="row position-relative datosPersonajes"></div>
+	</div>
+
+	<script src="js/jquery-3.5.1.slim.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/getData.js"></script>
+</html>
